@@ -1,0 +1,125 @@
+img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 109px;
+    padding-left: 187px;
+    display: block;
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 584px;
+    height: 35px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #leftnav {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+  #leftnav a {
+    
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+.rightnav {
+    position: relative;
+    display: block;
+    
+}
+.rightnav a {
+    display: inline-block;
+    
+}
+.rightnav #sign{
+
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    position: relative;
+    color: #fff;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    position: flex;
+    margin-top: 7.5px;
+}
+.search {
+    display: block;
+    margin-left: 693px;
+}
+.search a{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+#foot{
+    margin-top: 10px;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    width: 100%;
+
+}
+#leftfoot {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+#leftfoot ul {
+    background: transparent;
+}
+.rightfoot ul {
+    position: relative;
+    display: block;
+    background: transparent;
+    
+}
+.rightfoot {
+    position: relative;
+    display: block;
+    
+}
+  /* Change the link color to #111 (black) on hover */
+  /* li a:hover {
+
+  } */
